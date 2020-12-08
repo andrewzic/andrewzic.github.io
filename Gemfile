@@ -14,7 +14,9 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 gem "jekyll-remote-theme"
+gem "jekyll", "~>3.7"
 gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
@@ -27,5 +29,5 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-include-cache"
 #
 # If you have any other plugins, put them here!
-group :jekyll_plugins do
-end
+# group :jekyll_plugins do
+# end
