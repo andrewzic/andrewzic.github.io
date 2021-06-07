@@ -98,19 +98,19 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
   name             : "Andrew Zic"
   avatar           : "/assets/images/portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral Research Fellow | Macquarie University/CSIRO Astronomy and Space Science"
+  bio              : "Postdoctoral Research Fellow | MQAAAstro, Macquarie University/Space & Astronomy, CSIRO"
   location         : "Sydney, Australia"
-  #email            : andrew.zic@csiro.au
+  email            : andrew [DOT] zic [AT] csiro [DOT] au
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -121,9 +121,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/astrophyzic"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   # url: "https://github.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/andrewzic/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
