@@ -110,7 +110,7 @@ analytics:
 author:
   name             : "Andrew Zic"
   avatar           : "/assets/images/askap_portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "<p>Impossible Without You Research Scientist | ATNF, CSIRO Space & Astronomy</p>"
+  bio              : "<p>Impossible Without You Research Scientist |</p><p> ATNF, CSIRO Space & Astronomy</p>"
   location         : "Sydney, Australia"
   email            : andrew [DOT] zic [AT] csiro [DOT] au
   links:
@@ -155,8 +155,7 @@ footer:
 
 # Reading Files
 include:
-  - .htaccess
-  - ["_pages"]
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -218,7 +217,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 0 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -283,23 +282,20 @@ compress_html:
 # Defaults
 defaults:
   #_posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: # true
-      share: false
-      related: false
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: # true
+  #     share: false
+  #     related: false
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: # true
-      share: false
-      related: false
