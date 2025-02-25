@@ -110,7 +110,7 @@ analytics:
 author:
   name             : "Andrew Zic"
   avatar           : "/assets/images/askap_portrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "<p>Impossible Without You Research Scientist |</p><p> ATNF, CSIRO Space & Astronomy</p>"
+  bio              : "<p>Bolton Research Scientist |</p><p> ATNF, CSIRO Space & Astronomy</p>"
   location         : "Sydney, Australia"
   email            : andrew [DOT] zic [AT] csiro [DOT] au
   links:
